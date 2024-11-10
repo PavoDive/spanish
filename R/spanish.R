@@ -14,6 +14,11 @@
 #' @section to_words():
 #' Translate to spanish spelled quantities from integers
 #'
+#' @section to_words(2):
+#' Convert numbers or strings of digits to spelled quantities in
+#' Spanish. Numeric input can be as large as 1e22, while strings of
+#' digits can be as large as 60 digits.
+#' 
 #' @section geocode_cadastral():
 #' geocode by longitude and latitude from cadastral references.
 #' Get longitude/latitude from valid cadastral ref. or kml files from catastro.

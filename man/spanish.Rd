@@ -2,8 +2,8 @@
 % Please edit documentation in R/spanish.R
 \docType{package}
 \name{spanish}
-\alias{spanish}
 \alias{spanish-package}
+\alias{spanish}
 \title{spanish: A package for spanish related data functions.}
 \description{
 The spanish package provides some functions for spanish data:
@@ -24,9 +24,28 @@ The upper limit is up to the millions range. Cents must be removed.
 Translate to spanish spelled quantities from integers
 }
 
+\section{to_words(2)}{
+
+Convert numbers or strings of digits to spelled quantities in
+Spanish. Numeric input can be as large as 1e22, while strings of
+digits can be as large as 60 digits.
+}
+
 \section{geocode_cadastral()}{
 
 geocode by longitude and latitude from cadastral references.
 Get longitude/latitude from valid cadastral ref. or kml files from catastro.
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/verajosemanuel}
+  \item Report bugs at \url{https://github.com/verajosemanuel/spanish/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Jose Manuel Vera Oteo \email{vera.josemanuel@gmail.com}
+
+}

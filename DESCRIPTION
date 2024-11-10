@@ -23,6 +23,5 @@ Collate:
     'cantidades-data.R'
     'to_words.R'
     'spanish.R'
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.2
 Suggests: testthat, tidyr
-
